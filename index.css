@@ -1,0 +1,73 @@
+body {
+  background-image: url("bookshelf.jpg");
+  background-size: cover;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  text-align: center;
+  color: #00272b;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  width: 50%;
+  margin: auto;
+  padding: 40px;
+  background-color: white;
+  border-radius: 10px;
+  border: 2px solid #00272b;
+}
+
+h1 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 50px;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+button {
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  font-weight: bold;
+  width: 150px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  border: 2px solid #00272b;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+#increment-btn {
+  background: #eca400;
+}
+
+#save-btn {
+  background: #94ecbe;
+}
+
+#reset-btn {
+  background-color: #907f9f;
+}
+
+.footer {
+  margin-bottom: 10px;
+  width: 50%;
+  padding: 5px 0;
+  background-color: white;
+  border-radius: 10px;
+  border: 2px solid #00272b;
+}
+
+.footer a {
+  color: #eca400;
+}
